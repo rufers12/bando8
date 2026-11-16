@@ -86,8 +86,7 @@ body {
 .material-photo figcaption { font-size: .875rem; }
 
 .material-card { position: relative; display: flex; flex-direction: column; height: 100%; }
-.material-card > :last-child { flex: 1; }
-.material-card > :last-child > * { height: 100%; }
+.material-body { display: flex; flex: 1; flex-direction: column; gap: .5rem; padding: 1rem; }
 .material-open {
   padding: 0;
   background: transparent;

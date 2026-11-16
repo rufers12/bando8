@@ -65,15 +65,13 @@ function MaterialCard({item, onOpen}: {item: Material; onOpen: () => void}) {
     <Card padding={0} height="100%">
       <section className="material-card">
         <ProductPhoto item={item} photo={extra?.photo} />
-        <Section variant="transparent" padding={4}>
-          <VStack gap={2}>
-            {/* 제품명 버튼이 카드 전체를 덮어(CSS ::after) 카드 어디를 눌러도 상세가 열린다 */}
-            <h3><button className="material-open" type="button" onClick={onOpen}>{item.name}</button></h3>
-            <p className="material-spec">{item.spec}</p>
-            <p className="material-price">{priceFor(item)}{item.price?.scope && <small> · {item.price.scope}만</small>}</p>
-            {search && <footer className="material-actions"><ExternalLink label="가격 검색" url={search.url} /></footer>}
-          </VStack>
-        </Section>
+        <article className="material-body">
+          {/* 제품명 버튼이 카드 전체를 덮어(CSS ::after) 카드 어디를 눌러도 상세가 열린다 */}
+          <h3><button className="material-open" type="button" onClick={onOpen}>{item.name}</button></h3>
+          <p className="material-spec">{item.spec}</p>
+          <p className="material-price">{priceFor(item)}{item.price?.scope && <small> · {item.price.scope}만</small>}</p>
+          {search && <footer className="material-actions"><ExternalLink label="가격 검색" url={search.url} /></footer>}
+        </article>
       </section>
     </Card>
   );

@@ -80,20 +80,20 @@
     }
   },
   "hall-bidet": {
-    "sourceSpec": "이누스 방수 비데 IS-27D",
-    "status": "IS-27D 제품 일치",
-    "note": "2026-11-16 결정: IS-27D로 진행. 이누스몰 표시가 290,000원으로 시트 예상 가격(180,000~220,000원)과 차이가 크므로 발주 전 판매가·재고를 확인.",
+    "sourceSpec": "이누스 살균 방수 비데 ISA-8500 (IPX8 직수형)",
+    "status": "ISA-8500 판매 페이지 확인",
+    "note": "2026-11-16 결정: IS-27D에서 ISA-8500으로 변경. 롯데하이마트 판매 페이지에서 IPX8 완벽방수·직수형·99.9% 살균·더블케어 항균시트·필터 없는 구조를 확인했다. 판매가 219,000원(정가 360,000원)으로 시트 예상 가격(180,000~220,000원) 안이다. 이누스몰 방수비데 목록에서는 이 모델을 확인하지 못했으므로 재고와 최종 판매가는 발주 전에 확인.",
     "links": [
       {
-        "label": "이누스몰 IS-27D",
-        "url": "https://inusmall.com/product/detail.html?product_no=39",
+        "label": "롯데하이마트 ISA-8500",
+        "url": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0061659119",
         "kind": "seller"
       }
     ],
     "photo": {
-      "filename": "inus-is27d.jpg",
-      "sourceUrl": "https://inusmall.com/product/detail.html?product_no=39",
-      "caption": "이누스 방수비데 IS-27D · 이누스몰 상품 사진."
+      "filename": "inus-isa8500.jpg",
+      "sourceUrl": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0061659119",
+      "caption": "이누스 살균 방수 비데 ISA-8500 · 롯데하이마트 판매 페이지 사진."
     }
   },
   "hall-tub": {
@@ -281,20 +281,20 @@
     }
   },
   "main-bidet": {
-    "sourceSpec": "이누스 방수 비데 IS-27D",
-    "status": "IS-27D 제품 일치",
-    "note": "2026-11-16 결정: IS-27D로 진행. 이누스몰 표시가 290,000원으로 시트 예상 가격(180,000~220,000원)과 차이가 크므로 발주 전 판매가·재고를 확인.",
+    "sourceSpec": "이누스 살균 방수 비데 ISA-8500 (IPX8 직수형)",
+    "status": "ISA-8500 판매 페이지 확인",
+    "note": "2026-11-16 결정: IS-27D에서 ISA-8500으로 변경. 롯데하이마트 판매 페이지에서 IPX8 완벽방수·직수형·99.9% 살균·더블케어 항균시트·필터 없는 구조를 확인했다. 판매가 219,000원(정가 360,000원)으로 시트 예상 가격(180,000~220,000원) 안이다. 이누스몰 방수비데 목록에서는 이 모델을 확인하지 못했으므로 재고와 최종 판매가는 발주 전에 확인.",
     "links": [
       {
-        "label": "이누스몰 IS-27D",
-        "url": "https://inusmall.com/product/detail.html?product_no=39",
+        "label": "롯데하이마트 ISA-8500",
+        "url": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0061659119",
         "kind": "seller"
       }
     ],
     "photo": {
-      "filename": "inus-is27d.jpg",
-      "sourceUrl": "https://inusmall.com/product/detail.html?product_no=39",
-      "caption": "이누스 방수비데 IS-27D · 이누스몰 상품 사진."
+      "filename": "inus-isa8500.jpg",
+      "sourceUrl": "https://www.e-himart.co.kr/app/goods/goodsDetail?goodsNo=0061659119",
+      "caption": "이누스 살균 방수 비데 ISA-8500 · 롯데하이마트 판매 페이지 사진."
     }
   },
   "main-partition": {

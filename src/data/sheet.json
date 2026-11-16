@@ -71,7 +71,7 @@
       "row": 6,
       "room": "거실 욕실",
       "name": "비데",
-      "spec": "이누스 방수 비데 IS-27D",
+      "spec": "이누스 살균 방수 비데 ISA-8500 (IPX8 직수형)",
       "quantity": "1개",
       "priceText": "180000~220000",
       "price": {
@@ -80,7 +80,7 @@
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=이누스+IS-27D",
+      "url": "https://search.shopping.naver.com/search/all?query=이누스+ISA-8500",
       "note": "상단 갤러리 4번 (슬림 방수 비데)"
     },
     {
@@ -241,7 +241,7 @@
       "row": 16,
       "room": "안방 욕실",
       "name": "비데",
-      "spec": "이누스 방수 비데 IS-27D",
+      "spec": "이누스 살균 방수 비데 ISA-8500 (IPX8 직수형)",
       "quantity": "1개",
       "priceText": "180000~220000",
       "price": {
@@ -250,7 +250,7 @@
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=이누스+IS-27D",
+      "url": "https://search.shopping.naver.com/search/all?query=이누스+ISA-8500",
       "note": "상단 갤러리 4번 (슬림 방수 비데)"
     },
     {
