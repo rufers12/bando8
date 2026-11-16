@@ -50,7 +50,7 @@ function ProductPhoto({item, photo, eager = false}: {item: Material; photo?: Pho
   return (
     <figure className="material-photo">
       {photo && !failed ? (
-        <img src={'/materials/' + photo.filename} alt={photo.caption || item.name} loading={eager ? 'eager' : 'lazy'} onError={() => setFailed(true)} />
+        <img src={import.meta.env.BASE_URL + 'materials/' + photo.filename} alt={photo.caption || item.name} loading={eager ? 'eager' : 'lazy'} onError={() => setFailed(true)} />
       ) : (
         <figcaption>제품 사진 준비 중</figcaption>
       )}
@@ -238,7 +238,7 @@ export default function App() {
                 </VStack>
               )}
               <footer className="site-footer">
-                <p>데이터 반영일 {sheet.asOf}</p>
+                <p>데이터 반영일 {sheet.asOf} · 실측 전 현재 기준이며 변경될 수 있습니다</p>
                 <ExternalLink label="원본 스프레드시트" url={sheet.sourceUrl} />
               </footer>
             </VStack>

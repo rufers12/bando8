@@ -88,16 +88,16 @@
       "row": 7,
       "room": "거실 욕실",
       "name": "욕조",
-      "spec": "아크릴 매립형 욕조 1600mm (팝업 포함)",
+      "spec": "대림바스 아크릴 매립욕조 BT-1600 (1600×700×420mm)",
       "quantity": "1개",
-      "priceText": "150000~200000",
+      "priceText": "180000~230000",
       "price": {
-        "min": 150000,
-        "max": 200000,
+        "min": 180000,
+        "max": 230000,
         "scope": null
       },
-      "procurement": "사급/업체협의",
-      "url": "https://search.shopping.naver.com/search/all?query=아크릴+매립형+욕조+1600",
+      "procurement": "사급 (1차 선입고)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+BT-1600",
       "note": "표준 화이트 아크릴 매립 욕조"
     },
     {
@@ -122,16 +122,16 @@
       "row": 9,
       "room": "거실 욕실",
       "name": "거울장",
-      "spec": "대림바스 은경 슬라이드 거울장 (1200x800, 하부 간접등 포함)",
+      "spec": "대림바스 은경 슬라이딩장 콘센트 멀티형 DL-C1200M (1200×800×170mm)",
       "quantity": "1개",
-      "priceText": "250000~320000",
+      "priceText": "280000~350000",
       "price": {
-        "min": 250000,
-        "max": 320000,
+        "min": 280000,
+        "max": 350000,
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=대림바스+은경+슬라이드장+1200",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-C1200",
       "note": "은경 슬라이드장 + 하부 T5 LED 간접등"
     },
     {
@@ -190,7 +190,7 @@
       "row": 13,
       "room": "거실 욕실",
       "name": "수건걸이",
-      "spec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+      "spec": "대림바스 니켈 수건걸이 DL-A5602LN (단품)",
       "quantity": "1개",
       "priceText": "30000~40000",
       "price": {
@@ -199,7 +199,7 @@
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602LN",
       "note": "무광니켈 직선형 수건걸이"
     },
     {
@@ -288,16 +288,16 @@
       "row": 19,
       "room": "안방 욕실",
       "name": "거울장",
-      "spec": "대림바스 은경 슬라이드 거울장 (안방 규격)",
+      "spec": "대림바스 은경 슬라이딩장 콘센트 멀티형 DL-C1200M (1200×800×170mm)",
       "quantity": "1개",
-      "priceText": "220000~280000",
+      "priceText": "280000~350000",
       "price": {
-        "min": 220000,
-        "max": 280000,
+        "min": 280000,
+        "max": 350000,
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=대림바스+은경+슬라이드장",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-C1200",
       "note": "은경 슬라이드장"
     },
     {
@@ -356,7 +356,7 @@
       "row": 23,
       "room": "안방 욕실",
       "name": "수건걸이",
-      "spec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+      "spec": "대림바스 니켈 수건걸이 DL-A5602LN (단품)",
       "quantity": "1개",
       "priceText": "30000~40000",
       "price": {
@@ -365,7 +365,7 @@
         "scope": null
       },
       "procurement": "사급 (직접 구매)",
-      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602LN",
       "note": "무광니켈 직선형 수건걸이"
     },
     {
@@ -390,12 +390,12 @@
       "row": 26,
       "room": "거실 및 각 방",
       "name": "도배 벽지",
-      "spec": "신한벽지 리빙 70353-1 코튼 회벽/화이트 (가성비 디아망 스타일)",
+      "spec": "개나리벽지 프리모 99126-1 (크래프트회벽-화이트) (대안: LX하우시스 베스트 82601-01 디아회벽-퓨어화이트)",
       "quantity": "1식",
       "priceText": "업체 견적 포함",
       "price": null,
       "procurement": "업체 시공 지정",
-      "url": "https://search.shopping.naver.com/search/all?query=신한벽지+리빙+70353-1",
+      "url": "https://search.shopping.naver.com/search/all?query=개나리벽지+99126-1",
       "note": "입체 회벽/미장 화이트 텍스처"
     },
     {
@@ -403,12 +403,12 @@
       "row": 27,
       "room": "거실 및 각 방",
       "name": "바닥재·걸레받이",
-      "spec": "3.2T(3.2mm) 장판 크림·아이보리 스톤 / 웜 베이지 스톤 (현대L&C 아티움 3.2 / KCC 숲 도담 / 동화 듀오) + 화이트 걸레받이",
+      "spec": "KCC 숲 도담 3.2T NR32-4901 (파라디소화이트) (대안: NR32-5111 로만스톤) + 화이트 걸레받이",
       "quantity": "1식",
       "priceText": "업체 견적 포함",
       "price": null,
       "procurement": "업체 시공 지정",
-      "url": "https://search.shopping.naver.com/search/all?query=현대+아티움+3.2T+스톤",
+      "url": "https://search.shopping.naver.com/search/all?query=KCC+숲도담+NR32-4901",
       "note": "600각 포세린 느낌 웜 스톤 패턴"
     },
     {

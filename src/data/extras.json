@@ -81,21 +81,37 @@
   },
   "hall-bidet": {
     "sourceSpec": "이누스 방수 비데 IS-27D",
-    "status": "IS-27D로 결정",
-    "note": "2026-11-16 결정: IS-27D로 진행. 시트 가격은 IS-27 기준이므로 IS-27D 판매가와 재고를 발주 전 확인.",
+    "status": "IS-27D 제품 일치",
+    "note": "2026-11-16 결정: IS-27D로 진행. 이누스몰 표시가 290,000원으로 시트 예상 가격(180,000~220,000원)과 차이가 크므로 발주 전 판매가·재고를 확인.",
     "links": [
       {
-        "label": "IS-27D 제조사 몰 목록",
-        "url": "https://inusmall.com/category/%EB%B0%A9%EC%88%98%EB%B9%84%EB%8D%B0/109",
-        "kind": "reference"
+        "label": "이누스몰 IS-27D",
+        "url": "https://inusmall.com/product/detail.html?product_no=39",
+        "kind": "seller"
       }
-    ]
+    ],
+    "photo": {
+      "filename": "inus-is27d.jpg",
+      "sourceUrl": "https://inusmall.com/product/detail.html?product_no=39",
+      "caption": "이누스 방수비데 IS-27D · 이누스몰 상품 사진."
+    }
   },
   "hall-tub": {
-    "sourceSpec": "아크릴 매립형 욕조 1600mm (팝업 포함)",
-    "status": "1600mm 기준 진행",
-    "note": "2026-11-16 결정: 1600mm 기준으로 진행. 실측 결과에 따라 변경될 수 있고, 시트 가격은 1500/1600mm 공통 범위다.",
-    "links": []
+    "sourceSpec": "대림바스 아크릴 매립욕조 BT-1600 (1600×700×420mm)",
+    "status": "BT-1600 카탈로그 확인",
+    "note": "2026-11-16: 대림바스 e-카탈로그 77쪽에서 BT-1500·1600·1700 아크릴 욕조(수납형 에이프런) 중 BT-1600 W1600×D700×H420mm를 확인했다. 처음 받은 BT1516은 BT-1600으로 정정. 실측 후 규격이 바뀔 수 있고, 팝업 포함 여부는 확인되지 않았다.",
+    "links": [
+      {
+        "label": "대림바스 e-카탈로그",
+        "url": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?callmode=normal&catimage=&eclang=ko&Dir=10&um=s&start=76",
+        "kind": "official"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-bt1600.png",
+      "sourceUrl": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?callmode=normal&catimage=&eclang=ko&Dir=10&um=s&start=76",
+      "caption": "대림바스 BT-1500·1600·1700 아크릴 욕조 e-카탈로그 사진(시리즈 공통)."
+    }
   },
   "hall-basin": {
     "sourceSpec": "대림바스 아르노 스퀘어 반다리 CL-371",
@@ -121,16 +137,21 @@
     }
   },
   "hall-mirror": {
-    "sourceSpec": "대림바스 은경 슬라이드 거울장 (1200x800, 하부 간접등 포함)",
-    "status": "구성 미확인",
-    "note": "DL-C1200 계열은 참고용. 1200×800mm와 하부 간접등 포함 여부를 함께 확인한 상품 링크는 미확보.",
+    "sourceSpec": "대림바스 은경 슬라이딩장 콘센트 멀티형 DL-C1200M (1200×800×170mm)",
+    "status": "DL-C1200M 공식 페이지 확인",
+    "note": "2026-11-16: 대림바스 공식 페이지에서 DL-C1200 일반·DL-C1200D 댐퍼·DL-C1200M 멀티 콘센트 구성과 1200×800×170mm를 확인. 오픈마켓은 DL-C1200으로 조회하고 옵션에서 콘센트를 선택한다. 하부 간접등 포함 여부는 공식 페이지에 없어 확인되지 않았다.",
     "links": [
       {
-        "label": "대림바스 슬라이딩장 카탈로그",
-        "url": "https://www.daelimbath.com/img/catalog.pdf",
-        "kind": "reference"
+        "label": "대림바스 DL-C1200 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=600",
+        "kind": "official"
       }
-    ]
+    ],
+    "photo": {
+      "filename": "daelim-dl-c1200.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=600",
+      "caption": "대림바스 은경 슬라이딩장 DL-C1200 대표 사진. 콘센트 멀티형(DL-C1200M)은 옵션이다."
+    }
   },
   "hall-faucet": {
     "sourceSpec": "대림바스 아르노 무광니켈 DL-L4210LN",
@@ -197,10 +218,21 @@
     }
   },
   "hall-towel": {
-    "sourceSpec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
-    "status": "DL-A5602로 변경·품번 확인 필요",
-    "note": "2026-11-16 결정: DL-A5602로 변경. 공개된 제조사·판매 페이지를 찾지 못해 마감 접미사(무광니켈 여부), 길이, 판매가를 발주 전 확인. 시트 가격은 기존 단품 기준.",
-    "links": []
+    "sourceSpec": "대림바스 니켈 수건걸이 DL-A5602LN (단품)",
+    "status": "DL-A5602LN 제품 일치",
+    "note": "2026-11-16 결정: DL-A5602로 변경. 판매 페이지의 정확한 품번은 니켈 마감 DL-A5602LN이며, 건메탈 마감은 DL-A5602M으로 별도다. 판매가는 약 29,000~37,000원으로 시트 예상 가격(30,000~40,000원)과 대체로 맞다. 길이 등 규격은 발주 전 확인.",
+    "links": [
+      {
+        "label": "언커먼바스 DL-A5602LN",
+        "url": "https://ucmbath.com/towel-bar/?idx=2132",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-a5602ln.png",
+      "sourceUrl": "https://ucmbath.com/towel-bar/?idx=2132",
+      "caption": "대림바스 니켈 DL-A5602LN 수건걸이 · 언커먼바스 판매 페이지 사진."
+    }
   },
   "hall-fan": {
     "sourceSpec": "힘펠 제로크 HV3-80X(MD-N) (전동댐퍼 일체형)",
@@ -250,15 +282,20 @@
   },
   "main-bidet": {
     "sourceSpec": "이누스 방수 비데 IS-27D",
-    "status": "IS-27D로 결정",
-    "note": "2026-11-16 결정: IS-27D로 진행. 시트 가격은 IS-27 기준이므로 IS-27D 판매가와 재고를 발주 전 확인.",
+    "status": "IS-27D 제품 일치",
+    "note": "2026-11-16 결정: IS-27D로 진행. 이누스몰 표시가 290,000원으로 시트 예상 가격(180,000~220,000원)과 차이가 크므로 발주 전 판매가·재고를 확인.",
     "links": [
       {
-        "label": "IS-27D 제조사 몰 목록",
-        "url": "https://inusmall.com/category/%EB%B0%A9%EC%88%98%EB%B9%84%EB%8D%B0/109",
-        "kind": "reference"
+        "label": "이누스몰 IS-27D",
+        "url": "https://inusmall.com/product/detail.html?product_no=39",
+        "kind": "seller"
       }
-    ]
+    ],
+    "photo": {
+      "filename": "inus-is27d.jpg",
+      "sourceUrl": "https://inusmall.com/product/detail.html?product_no=39",
+      "caption": "이누스 방수비데 IS-27D · 이누스몰 상품 사진."
+    }
   },
   "main-partition": {
     "sourceSpec": "조적 파티션 (600각 포세린 타일 및 졸리컷 마감)",
@@ -295,16 +332,21 @@
     }
   },
   "main-mirror": {
-    "sourceSpec": "대림바스 은경 슬라이드 거울장 (안방 규격)",
-    "status": "모델·규격 미정",
-    "note": "안방 규격과 거울장 품번 미정. 거실 욕실 링크를 그대로 사용하지 않는다.",
+    "sourceSpec": "대림바스 은경 슬라이딩장 콘센트 멀티형 DL-C1200M (1200×800×170mm)",
+    "status": "DL-C1200M 공식 페이지 확인",
+    "note": "2026-11-16: 대림바스 공식 페이지에서 DL-C1200 일반·DL-C1200D 댐퍼·DL-C1200M 멀티 콘센트 구성과 1200×800×170mm를 확인. 오픈마켓은 DL-C1200으로 조회하고 옵션에서 콘센트를 선택한다. 하부 간접등 포함 여부는 공식 페이지에 없어 확인되지 않았다. 안방 욕실에도 같은 규격을 쓰는지 실측 확인.",
     "links": [
       {
-        "label": "대림바스 슬라이딩장 카탈로그",
-        "url": "https://www.daelimbath.com/img/catalog.pdf",
-        "kind": "reference"
+        "label": "대림바스 DL-C1200 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=600",
+        "kind": "official"
       }
-    ]
+    ],
+    "photo": {
+      "filename": "daelim-dl-c1200.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=600",
+      "caption": "대림바스 은경 슬라이딩장 DL-C1200 대표 사진. 콘센트 멀티형(DL-C1200M)은 옵션이다."
+    }
   },
   "main-faucet": {
     "sourceSpec": "대림바스 아르노 무광니켈 DL-L4210LN",
@@ -376,10 +418,21 @@
     }
   },
   "main-towel": {
-    "sourceSpec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
-    "status": "DL-A5602로 변경·품번 확인 필요",
-    "note": "2026-11-16 결정: DL-A5602로 변경. 공개된 제조사·판매 페이지를 찾지 못해 마감 접미사(무광니켈 여부), 길이, 판매가를 발주 전 확인. 시트 가격은 기존 단품 기준.",
-    "links": []
+    "sourceSpec": "대림바스 니켈 수건걸이 DL-A5602LN (단품)",
+    "status": "DL-A5602LN 제품 일치",
+    "note": "2026-11-16 결정: DL-A5602로 변경. 판매 페이지의 정확한 품번은 니켈 마감 DL-A5602LN이며, 건메탈 마감은 DL-A5602M으로 별도다. 판매가는 약 29,000~37,000원으로 시트 예상 가격(30,000~40,000원)과 대체로 맞다. 길이 등 규격은 발주 전 확인.",
+    "links": [
+      {
+        "label": "언커먼바스 DL-A5602LN",
+        "url": "https://ucmbath.com/towel-bar/?idx=2132",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-a5602ln.png",
+      "sourceUrl": "https://ucmbath.com/towel-bar/?idx=2132",
+      "caption": "대림바스 니켈 DL-A5602LN 수건걸이 · 언커먼바스 판매 페이지 사진."
+    }
   },
   "main-fan": {
     "sourceSpec": "힘펠 휴젠뜨 노바 복합환풍기 (타공 신규 시공)",
@@ -410,33 +463,43 @@
     }
   },
   "rooms-wallpaper": {
-    "sourceSpec": "신한벽지 리빙 70353-1 코튼 회벽/화이트 (가성비 디아망 스타일)",
-    "status": "모델·품번 미확인",
-    "note": "리빙 브랜드는 확인. 70353-1과 ‘코튼 회벽/화이트’ 조합은 정확한 제품 페이지를 확보하지 못함.",
+    "sourceSpec": "개나리벽지 프리모 99126-1 (크래프트회벽-화이트) (대안: LX하우시스 베스트 82601-01 디아회벽-퓨어화이트)",
+    "status": "99126-1 제품 페이지 확인",
+    "note": "2026-11-16: 샘플창고에서 개나리벽지 프리모 99126-1 크래프트회벽-화이트 페이지를 확인했다. 같은 시리즈에 99126-2 밀크화이트(더 크림색), 99126-3 포셀린크림, 99126-4 토프베이지가 있으며 사진만으로 색 차이를 판단하기 어려우니 업체 샘플로 확인한다. 시공 가격은 업체 견적에 포함.",
     "links": [
       {
-        "label": "KCC신한벽지 리빙 공식",
-        "url": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=4",
-        "kind": "reference"
-      }
-    ]
-  },
-  "rooms-floor": {
-    "sourceSpec": "3.2T(3.2mm) 장판 크림·아이보리 스톤 / 웜 베이지 스톤 (현대L&C 아티움 3.2 / KCC 숲 도담 / 동화 듀오) + 화이트 걸레받이",
-    "status": "3.2T로 결정·패턴 미정",
-    "note": "2026-11-16 결정: 두께 3.2T로 진행. 현대L&C 참다움은 2.0T라 같은 회사의 3.2T 제품군인 아티움 3.2로 바꿨다. 스톤 패턴 품번, 동화 듀오 및 걸레받이 품번은 미확인.",
-    "links": [
-      {
-        "label": "현대L&C 아티움 3.2 자료",
-        "url": "https://www.hyundailnc.com/download/10370.do?disp=inline&mime=pdf",
+        "label": "샘플창고 99126-1 화이트",
+        "url": "https://sample.bjchango.com/product-detail/18390",
         "kind": "reference"
       },
       {
-        "label": "KCC글라스 숲 도담 안내",
-        "url": "https://www.kccglass.co.kr/promote/kccGlassNews/view.do?seqBoard=5668",
+        "label": "샘플창고 99126-2 밀크화이트",
+        "url": "https://sample.bjchango.com/product-detail/18391",
         "kind": "reference"
       }
-    ]
+    ],
+    "photo": {
+      "filename": "gaenari-99126-1.jpg",
+      "sourceUrl": "https://sample.bjchango.com/product-detail/18390",
+      "caption": "개나리벽지 프리모 99126-1 크래프트회벽-화이트 · 샘플창고 질감 사진."
+    }
+  },
+  "rooms-floor": {
+    "sourceSpec": "KCC 숲 도담 3.2T NR32-4901 (파라디소화이트) (대안: NR32-5111 로만스톤) + 화이트 걸레받이",
+    "status": "NR32-4901 판매 페이지 확인",
+    "note": "2026-11-16: 자재로(zzro.kr)에서 KCC 숲 도담 3.2T 파라디소화이트 NR32-4901을 확인했다. 판매가 1m당 42,900원(폭 1.83m, 롤 23m 단위 주문 가능), 화물 배송비 별도. 업체 시공 일괄 항목이라 시트의 견적 포함 금액에는 넣지 않았다. 대안 NR32-5111 로만스톤과 걸레받이 품번은 미확인. 업체 샘플로 패턴을 확인.",
+    "links": [
+      {
+        "label": "자재로 NR32-4901",
+        "url": "https://zzro.kr/product-flooring-kcc-32t/?idx=10660",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "kcc-sup-dodam-nr32-4901.jpg",
+      "sourceUrl": "https://zzro.kr/product-flooring-kcc-32t/?idx=10660",
+      "caption": "KCC 숲 도담 3.2T 파라디소화이트 NR32-4901 · 자재로 판매 페이지 사진."
+    }
   },
   "rooms-lighting": {
     "sourceSpec": "루씨에어 레이더3 올화이트 52인치 + 우물천장 T5 간접등 + 3인치 COB 매립등",
