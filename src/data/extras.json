@@ -1,0 +1,464 @@
+{
+  "kitchen-cabinets": {
+    "sourceSpec": "상·하부장(무광 PET) 및 인조대리석 상판",
+    "status": "업체 시공",
+    "note": "무광 PET 상·하부장과 인조대리석 상판의 업체 사양 또는 견적 자료를 연결할 항목.",
+    "links": []
+  },
+  "kitchen-sink": {
+    "sourceSpec": "하츠 사각 싱크볼 HZ-E8301SF (+배수구 세트)",
+    "status": "제품 페이지 일치",
+    "note": "HZ-E8301SF 언더싱크형. 판매 구성에 기본 배수구 포함, 사진 속 배수구 덮개는 별도.",
+    "links": [
+      {
+        "label": "하츠 공식 카탈로그",
+        "url": "https://www.haatz.com/upload/catalog/202601/1767252001_m0257438_20260101162001.pdf",
+        "kind": "official"
+      },
+      {
+        "label": "덕인 판매처",
+        "url": "https://www.duck-in.co.kr/official.php/home/info/4908",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "haatz-e8301sf.jpg",
+      "sourceUrl": "https://www.duck-in.co.kr/official.php/home/info/4908",
+      "imageUrl": "https://www.duck-in.co.kr/uploads/hg1603042/202402/7fdb06fea7bf7f683a05a6f46ae09fed_crop.jpg",
+      "caption": "HZ-E8301SF · 본품 제품 사진. 사진 속 부속품 포함 여부는 판매처 확인."
+    }
+  },
+  "kitchen-faucet": {
+    "sourceSpec": "필로토 슈티에 80127 무광니켈 (대안: 라우체 아르띠 TM0028)",
+    "status": "제품·마감 일치",
+    "note": "크롬·니켈과 마감별 페이지가 다르다. 공식몰 표시 334,000원(VAT 별도), 시트 예상 170,000~230,000원. 대안 TM0028은 C·U 등 접미사 확정 필요.",
+    "links": [
+      {
+        "label": "필로토 공식몰 80127 무광니켈",
+        "url": "https://piloto.co.kr/shop/product/product_view?product_cd=101728",
+        "kind": "seller"
+      },
+      {
+        "label": "라우체 아르띠 목록",
+        "url": "https://www.lauche.co.kr/shop/list.php?ca_id=101030&page=1",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "piloto-80127-matte-nickel.png",
+      "sourceUrl": "https://piloto.co.kr/shop/product/product_view?product_cd=101728",
+      "imageUrl": "https://d31uhh1zb6pnom.cloudfront.net/uploads/product/af60e619c13b925e2f9110b9aad4def4.png",
+      "caption": "80127 matte nickel · 공식몰 무광니켈 옵션 사진."
+    }
+  },
+  "hall-toilet": {
+    "sourceSpec": "대림바스 투피스 치마형 CC-724 (또는 CC-734)",
+    "status": "제품 페이지 일치",
+    "note": "두 모델을 후보로 유지하고 발주 전 품번과 시트·부속 포함 여부 확인.",
+    "links": [
+      {
+        "label": "CC-724 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=62",
+        "kind": "official"
+      },
+      {
+        "label": "이즈세라믹 판매처",
+        "url": "https://isceramic.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-%EC%96%91%EB%B3%80%EA%B8%B0-cc-724-%EC%A0%88%EC%88%98%ED%98%95/24659/category/342/display/1/",
+        "kind": "seller"
+      },
+      {
+        "label": "대안 CC-734 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=681",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-cc724.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=62",
+      "imageUrl": "https://www.daelimbath.com/upload/product/202208221553362671.jpg",
+      "caption": "CC-724 제품 사진"
+    }
+  },
+  "hall-bidet": {
+    "sourceSpec": "이누스 방수 비데 IS-27D",
+    "status": "IS-27D로 결정",
+    "note": "2026-11-16 결정: IS-27D로 진행. 시트 가격은 IS-27 기준이므로 IS-27D 판매가와 재고를 발주 전 확인.",
+    "links": [
+      {
+        "label": "IS-27D 제조사 몰 목록",
+        "url": "https://inusmall.com/category/%EB%B0%A9%EC%88%98%EB%B9%84%EB%8D%B0/109",
+        "kind": "reference"
+      }
+    ]
+  },
+  "hall-tub": {
+    "sourceSpec": "아크릴 매립형 욕조 1600mm (팝업 포함)",
+    "status": "1600mm 기준 진행",
+    "note": "2026-11-16 결정: 1600mm 기준으로 진행. 실측 결과에 따라 변경될 수 있고, 시트 가격은 1500/1600mm 공통 범위다.",
+    "links": []
+  },
+  "hall-basin": {
+    "sourceSpec": "대림바스 아르노 스퀘어 반다리 CL-371",
+    "status": "제품 페이지 일치",
+    "note": "세면기 품번 일치. 부속과 설치 포함 여부는 판매 옵션 확인.",
+    "links": [
+      {
+        "label": "대림바스 CL-371 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=858",
+        "kind": "official"
+      },
+      {
+        "label": "이즈세라믹 CL-371",
+        "url": "https://isceramic.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-%EC%84%B8%EB%A9%B4%EA%B8%B0-cl-371/24860/",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-cl371.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=858",
+      "imageUrl": "https://www.daelimbath.com/upload/product/20260608154371001.jpg",
+      "caption": "CL-371 제품 사진"
+    }
+  },
+  "hall-mirror": {
+    "sourceSpec": "대림바스 은경 슬라이드 거울장 (1200x800, 하부 간접등 포함)",
+    "status": "구성 미확인",
+    "note": "DL-C1200 계열은 참고용. 1200×800mm와 하부 간접등 포함 여부를 함께 확인한 상품 링크는 미확보.",
+    "links": [
+      {
+        "label": "대림바스 슬라이딩장 카탈로그",
+        "url": "https://www.daelimbath.com/img/catalog.pdf",
+        "kind": "reference"
+      }
+    ]
+  },
+  "hall-faucet": {
+    "sourceSpec": "대림바스 아르노 무광니켈 DL-L4210LN",
+    "status": "제품·마감 일치",
+    "note": "아르노 라운드 DL-L4210LN 니켈 모델 일치.",
+    "links": [
+      {
+        "label": "대림바스 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=1084",
+        "kind": "official"
+      },
+      {
+        "label": "이즈세라믹 판매처",
+        "url": "https://isceramic.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-%EC%84%B8%EB%A9%B4%EC%88%98%EC%A0%84-%EC%95%84%EB%A5%B4%EB%85%B8-%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%84%B8%EB%A9%B4-%EC%88%98%EC%A0%84-%EB%8B%88%EC%BC%88-dl-l4210ln/24862/",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-l4210ln.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=1084",
+      "imageUrl": "https://www.daelimbath.com/upload/product/20260519100146001.jpg",
+      "caption": "DL-L4210LN 제품 사진"
+    }
+  },
+  "hall-shower": {
+    "sourceSpec": "대림바스 아르노R 무광니켈 DL-B4213LN",
+    "status": "제품·마감 일치",
+    "note": "아르노 라운드 DL-B4213LN 니켈 모델 일치.",
+    "links": [
+      {
+        "label": "대림바스 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=1090",
+        "kind": "official"
+      },
+      {
+        "label": "언커먼바스 판매처",
+        "url": "https://ucmbath.com/faucet/?idx=1417",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-b4213ln.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=1090",
+      "imageUrl": "https://www.daelimbath.com/upload/product/202509231146178541.jpg",
+      "caption": "DL-B4213LN 제품 사진"
+    }
+  },
+  "hall-paper": {
+    "sourceSpec": "루바인 WMPC02SH 실버헤어라인 (대안: 범한공업 N-1208NI 무광니켈)",
+    "status": "제품·마감 일치",
+    "note": "판매 페이지 표시 108,000원, 시트 예상 40,000~70,000원. 상품명이 ‘커버’이므로 매립 본체 포함 여부를 주문 전 확인. 대안 범한 N-1208NI의 제조사·판매 상세는 미확보.",
+    "links": [
+      {
+        "label": "YES365mall WMPC02SH 실버 헤어라인",
+        "url": "https://yes365mall.com/product/%EB%A3%A8%EB%B0%94%EC%9D%B8-%EB%A7%A4%EB%A6%BD-%ED%9C%B4%EC%A7%80%EA%B1%B8%EC%9D%B4-%EC%BB%A4%EB%B2%84-wmpc02sh-%EC%8B%A4%EB%B2%84-%ED%97%A4%EC%96%B4%EB%9D%BC%EC%9D%B8/11493/",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "rubine-wmpc02sh.jpg",
+      "sourceUrl": "https://yes365mall.com/product/detail.html?product_no=11493",
+      "imageUrl": "https://yes365mall.com/web/product/big/202510/9e1f99971ae26d30df9fda6c9003cac1.jpg",
+      "caption": "WMPC02SH · 실버 헤어라인 커버. 매립 본체 포함 여부 별도 확인."
+    }
+  },
+  "hall-towel": {
+    "sourceSpec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+    "status": "DL-A5602로 변경·품번 확인 필요",
+    "note": "2026-11-16 결정: DL-A5602로 변경. 공개된 제조사·판매 페이지를 찾지 못해 마감 접미사(무광니켈 여부), 길이, 판매가를 발주 전 확인. 시트 가격은 기존 단품 기준.",
+    "links": []
+  },
+  "hall-fan": {
+    "sourceSpec": "힘펠 제로크 HV3-80X(MD-N) (전동댐퍼 일체형)",
+    "status": "추천 모델 반영·타공 신규 시공",
+    "note": "제로크 HV3-80X(MD-N), 전동댐퍼 일체형. 판매 페이지 기준 자재가 95,000원, 설치비 별도. 2026-11-16 결정: 천장 타공은 제품 규격(225×225mm)에 맞춰 새로 시공.",
+    "links": [
+      {
+        "label": "힘펠 HV3-80X(MD-N) 설명서",
+        "url": "https://dev.himpelmall.com/mall/board_data/manual/674e9a951edc73.46340732.pdf",
+        "kind": "official"
+      }
+    ],
+    "photo": {
+      "filename": "himpel-hv3-80x-md-n.webp",
+      "sourceUrl": "https://ductin.co.kr/product/detail.html?product_no=668",
+      "imageUrl": "https://ductin.co.kr/web/product/big/202409/090d3928480a5f875aea8f7469237888.webp",
+      "caption": "HV3-80X(MD-N) · 전동댐퍼 일체형 MD-N 판매 페이지의 정확한 모델 사진."
+    }
+  },
+  "main-toilet": {
+    "sourceSpec": "대림바스 투피스 치마형 CC-724 (또는 CC-734)",
+    "status": "제품 페이지 일치",
+    "note": "두 모델을 후보로 유지하고 발주 전 품번과 시트·부속 포함 여부 확인.",
+    "links": [
+      {
+        "label": "CC-724 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=62",
+        "kind": "official"
+      },
+      {
+        "label": "이즈세라믹 판매처",
+        "url": "https://isceramic.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-%EC%96%91%EB%B3%80%EA%B8%B0-cc-724-%EC%A0%88%EC%88%98%ED%98%95/24659/category/342/display/1/",
+        "kind": "seller"
+      },
+      {
+        "label": "대안 CC-734 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=681",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-cc724.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=62",
+      "imageUrl": "https://www.daelimbath.com/upload/product/202208221553362671.jpg",
+      "caption": "CC-724 제품 사진"
+    }
+  },
+  "main-bidet": {
+    "sourceSpec": "이누스 방수 비데 IS-27D",
+    "status": "IS-27D로 결정",
+    "note": "2026-11-16 결정: IS-27D로 진행. 시트 가격은 IS-27 기준이므로 IS-27D 판매가와 재고를 발주 전 확인.",
+    "links": [
+      {
+        "label": "IS-27D 제조사 몰 목록",
+        "url": "https://inusmall.com/category/%EB%B0%A9%EC%88%98%EB%B9%84%EB%8D%B0/109",
+        "kind": "reference"
+      }
+    ]
+  },
+  "main-partition": {
+    "sourceSpec": "조적 파티션 (600각 포세린 타일 및 졸리컷 마감)",
+    "status": "업체 시공",
+    "note": "조적 구조와 졸리컷 시공은 업체 견적 자료로 연결. 타일 품번이 정해지면 별도 제품 링크 추가 가능.",
+    "links": []
+  },
+  "main-basin": {
+    "sourceSpec": "대림바스 와이드 사각 탑카운터 CL-857 (또는 CL-551) + 하부 수납장",
+    "status": "세면기만 일치",
+    "note": "CL-857 판매 링크는 도기만 해당. 하부장 포함 세트로 표시할 수 없으므로 하부장 가공·구성은 업체 확인.",
+    "links": [
+      {
+        "label": "CL-857 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=1230",
+        "kind": "official"
+      },
+      {
+        "label": "CL-857 도기 판매처",
+        "url": "https://bathnmore.co.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-cl-857-%EB%8F%84%EA%B8%B0%EB%A7%8C-%ED%8C%90%EB%A7%A4-%EB%B6%80%EC%86%8D-%EC%98%B5%EC%85%98-%EA%B5%AC%EB%A7%A4-%EC%B9%B4%EC%9A%B4%ED%84%B0%ED%98%95-%ED%83%91%EB%B3%BC-%EC%84%B8%EB%A9%B4%EA%B8%B0-cl857-cl855-%EB%8C%80%EC%B2%B4%ED%92%88/13861/",
+        "kind": "seller"
+      },
+      {
+        "label": "대안 CL-551 공식 카탈로그",
+        "url": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?Dir=11&callmode=normal&catimage=&eclang=ko&start=24&um=s",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-cl857.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=1230",
+      "imageUrl": "https://www.daelimbath.com/upload/product/2026090275272451.jpg",
+      "caption": "CL-857 · 세면기만 해당. 하부장은 별도 확인."
+    }
+  },
+  "main-mirror": {
+    "sourceSpec": "대림바스 은경 슬라이드 거울장 (안방 규격)",
+    "status": "모델·규격 미정",
+    "note": "안방 규격과 거울장 품번 미정. 거실 욕실 링크를 그대로 사용하지 않는다.",
+    "links": [
+      {
+        "label": "대림바스 슬라이딩장 카탈로그",
+        "url": "https://www.daelimbath.com/img/catalog.pdf",
+        "kind": "reference"
+      }
+    ]
+  },
+  "main-faucet": {
+    "sourceSpec": "대림바스 아르노 무광니켈 DL-L4210LN",
+    "status": "제품·마감 일치",
+    "note": "아르노 라운드 DL-L4210LN 니켈 모델 일치.",
+    "links": [
+      {
+        "label": "대림바스 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=1084",
+        "kind": "official"
+      },
+      {
+        "label": "이즈세라믹 판매처",
+        "url": "https://isceramic.kr/product/%EB%8C%80%EB%A6%BC%EB%B0%94%EC%8A%A4-%EC%84%B8%EB%A9%B4%EC%88%98%EC%A0%84-%EC%95%84%EB%A5%B4%EB%85%B8-%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%84%B8%EB%A9%B4-%EC%88%98%EC%A0%84-%EB%8B%88%EC%BC%88-dl-l4210ln/24862/",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-l4210ln.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=1084",
+      "imageUrl": "https://www.daelimbath.com/upload/product/20260519100146001.jpg",
+      "caption": "DL-L4210LN 제품 사진"
+    }
+  },
+  "main-shower": {
+    "sourceSpec": "대림바스 선반형 DL-BV900A (대안: 아메리칸스탠다드 FC5797)",
+    "status": "제품 페이지 일치",
+    "note": "DL-BV900A는 수납형 무광. 제조사에 따르면 샤워수전 외 기타 부자재는 크롬. 대안 FC5797은 색상과 하부 선반 옵션 확인.",
+    "links": [
+      {
+        "label": "대림바스 공식",
+        "url": "https://www.daelimbath.com/product/product_view?idx=748",
+        "kind": "official"
+      },
+      {
+        "label": "오늘의집 DL-BV900A",
+        "url": "https://store.ohou.se/goods/3007885",
+        "kind": "seller"
+      },
+      {
+        "label": "대안 FC5797 제조사",
+        "url": "https://www.americanstandard.co.kr/main/product.do?proc_type=view&v_cate1=5&v_cate2=57&v_product=584",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "daelim-bv900a.jpg",
+      "sourceUrl": "https://www.daelimbath.com/product/product_view?idx=748",
+      "imageUrl": "https://www.daelimbath.com/upload/product/202209201659379841.jpg",
+      "caption": "DL-BV900A · 샤워수전 외 기타 부자재는 크롬."
+    }
+  },
+  "main-paper": {
+    "sourceSpec": "루바인 WMPC02SH 실버헤어라인 (대안: 범한공업 N-1208NI 무광니켈)",
+    "status": "제품·마감 일치",
+    "note": "판매 페이지 표시 108,000원, 시트 예상 40,000~70,000원. 상품명이 ‘커버’이므로 매립 본체 포함 여부를 주문 전 확인. 대안 범한 N-1208NI의 제조사·판매 상세는 미확보.",
+    "links": [
+      {
+        "label": "YES365mall WMPC02SH 실버 헤어라인",
+        "url": "https://yes365mall.com/product/%EB%A3%A8%EB%B0%94%EC%9D%B8-%EB%A7%A4%EB%A6%BD-%ED%9C%B4%EC%A7%80%EA%B1%B8%EC%9D%B4-%EC%BB%A4%EB%B2%84-wmpc02sh-%EC%8B%A4%EB%B2%84-%ED%97%A4%EC%96%B4%EB%9D%BC%EC%9D%B8/11493/",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "rubine-wmpc02sh.jpg",
+      "sourceUrl": "https://yes365mall.com/product/detail.html?product_no=11493",
+      "imageUrl": "https://yes365mall.com/web/product/big/202510/9e1f99971ae26d30df9fda6c9003cac1.jpg",
+      "caption": "WMPC02SH · 실버 헤어라인 커버. 매립 본체 포함 여부 별도 확인."
+    }
+  },
+  "main-towel": {
+    "sourceSpec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+    "status": "DL-A5602로 변경·품번 확인 필요",
+    "note": "2026-11-16 결정: DL-A5602로 변경. 공개된 제조사·판매 페이지를 찾지 못해 마감 접미사(무광니켈 여부), 길이, 판매가를 발주 전 확인. 시트 가격은 기존 단품 기준.",
+    "links": []
+  },
+  "main-fan": {
+    "sourceSpec": "힘펠 휴젠뜨 노바 복합환풍기 (타공 신규 시공)",
+    "status": "제품 일치·타공 신규 시공",
+    "note": "FHD2-C150P NOVA 제품 페이지 확인. 판매 자료의 타공 표기는 약 405×260~265mm로 기존 시트 295×295mm와 다르다. 2026-11-16 결정: 제품 설치 도면 기준으로 타공을 새로 시공.",
+    "links": [
+      {
+        "label": "힘펠샵 노바 T0002",
+        "url": "https://www.himpelshop.com/product/%ED%9E%98%ED%8E%A0-%ED%9C%B4%EC%A0%A0%EB%9C%A8-%EB%85%B8%EB%B0%94-fhd2-c150pnovat0002-%EC%9A%95%EC%8B%A4-%EB%B3%B5%ED%95%A9%ED%99%98%ED%92%8D%EA%B8%B0-%EC%98%A8%ED%92%8D-%EC%A0%9C%EC%8A%B5-%EB%93%9C%EB%9D%BC%EC%9D%B4-%EC%A0%84%EB%8F%99%EB%8C%90%ED%8D%BC/167/category/1/display/10/",
+        "kind": "seller"
+      },
+      {
+        "label": "롯데홈쇼핑 노바 자가설치",
+        "url": "https://m.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12861021",
+        "kind": "seller"
+      },
+      {
+        "label": "G마켓 T0002 타공 표기",
+        "url": "https://item.gmarket.co.kr/Item?goodsCode=4374285670",
+        "kind": "reference"
+      }
+    ],
+    "photo": {
+      "filename": "himpel-nova.jpg",
+      "sourceUrl": "https://www.himpelshop.com/product/detail.html?product_no=167",
+      "imageUrl": "https://www.himpelshop.com/web/product/big/202610/699fab92a6c834cd20c7c82c0264931f.jpg",
+      "caption": "FHD2-C150P NOVA T0002 · 휴젠뜨 노바 T0002. 노바F와 구분."
+    }
+  },
+  "rooms-wallpaper": {
+    "sourceSpec": "신한벽지 리빙 70353-1 코튼 회벽/화이트 (가성비 디아망 스타일)",
+    "status": "모델·품번 미확인",
+    "note": "리빙 브랜드는 확인. 70353-1과 ‘코튼 회벽/화이트’ 조합은 정확한 제품 페이지를 확보하지 못함.",
+    "links": [
+      {
+        "label": "KCC신한벽지 리빙 공식",
+        "url": "https://www.shinhanwall.co.kr/brands/view.html?depth1=1&depth2=4",
+        "kind": "reference"
+      }
+    ]
+  },
+  "rooms-floor": {
+    "sourceSpec": "3.2T(3.2mm) 장판 크림·아이보리 스톤 / 웜 베이지 스톤 (현대L&C 아티움 3.2 / KCC 숲 도담 / 동화 듀오) + 화이트 걸레받이",
+    "status": "3.2T로 결정·패턴 미정",
+    "note": "2026-11-16 결정: 두께 3.2T로 진행. 현대L&C 참다움은 2.0T라 같은 회사의 3.2T 제품군인 아티움 3.2로 바꿨다. 스톤 패턴 품번, 동화 듀오 및 걸레받이 품번은 미확인.",
+    "links": [
+      {
+        "label": "현대L&C 아티움 3.2 자료",
+        "url": "https://www.hyundailnc.com/download/10370.do?disp=inline&mime=pdf",
+        "kind": "reference"
+      },
+      {
+        "label": "KCC글라스 숲 도담 안내",
+        "url": "https://www.kccglass.co.kr/promote/kccGlassNews/view.do?seqBoard=5668",
+        "kind": "reference"
+      }
+    ]
+  },
+  "rooms-lighting": {
+    "sourceSpec": "루씨에어 레이더3 올화이트 52인치 + 우물천장 T5 간접등 + 3인치 COB 매립등",
+    "status": "실링팬 일치",
+    "note": "판매 링크는 레이더3 실링팬만 해당. 42인치 미니나 화이트오크와 구분. T5 간접등과 COB 매립등은 별도.",
+    "links": [
+      {
+        "label": "루씨에어 52인치 사용설명서",
+        "url": "https://lucciair.kr/default/customer/manual_board.php?com_board_basic=read_form&com_board_id=2&com_board_idx=17&com_board_page=&com_board_search_code=&com_board_search_value1=&com_board_search_value2=",
+        "kind": "official"
+      },
+      {
+        "label": "SSF SHOP 132cm 올화이트 옵션",
+        "url": "https://www.ssfshop.com/LUCCI-AIR/GRSA25090831948/good",
+        "kind": "seller"
+      }
+    ],
+    "photo": {
+      "filename": "lucciair-radar3-white.jpg",
+      "sourceUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000552325387",
+      "imageUrl": "https://sitem.ssgcdn.com/87/53/32/item/1000552325387_i1_1200.jpg",
+      "caption": "Radar3 white · 52인치 올화이트. 실링팬만 해당."
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "asOf": "2026-11-16",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1mCGLJZ0G5al-z90o24qHc0egHAUHFfF7Klu-LuzD45E/edit#gid=1942048721",
+  "items": [
+    {
+      "id": "kitchen-cabinets",
+      "row": 2,
+      "room": "주방",
+      "name": "싱크대",
+      "spec": "상·하부장(무광 PET) 및 인조대리석 상판",
+      "quantity": "1식",
+      "priceText": "업체 견적 포함",
+      "price": null,
+      "procurement": "업체 시공 일괄",
+      "url": null,
+      "note": "인조대리석 상판 화이트/오로라 톤"
+    },
+    {
+      "id": "kitchen-sink",
+      "row": 3,
+      "room": "주방",
+      "name": "싱크볼",
+      "spec": "하츠 사각 싱크볼 HZ-E8301SF (+배수구 세트)",
+      "quantity": "1개",
+      "priceText": "250000~300000",
+      "price": {
+        "min": 250000,
+        "max": 300000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=하츠+HZ-E8301SF",
+      "note": "상단 갤러리 1번 (사각 언더/인셋 스테인리스 볼)"
+    },
+    {
+      "id": "kitchen-faucet",
+      "row": 4,
+      "room": "주방",
+      "name": "주방 수전",
+      "spec": "필로토 슈티에 80127 무광니켈 (대안: 라우체 아르띠 TM0028)",
+      "quantity": "1개",
+      "priceText": "170000~230000",
+      "price": {
+        "min": 170000,
+        "max": 230000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=필로토+슈티에+80127+무광니켈",
+      "note": "상단 갤러리 2번 (거위목 무광니켈 코브라 수전)"
+    },
+    {
+      "id": "hall-toilet",
+      "row": 5,
+      "room": "거실 욕실",
+      "name": "양변기",
+      "spec": "대림바스 투피스 치마형 CC-724 (또는 CC-734)",
+      "quantity": "1개",
+      "priceText": "250000~300000",
+      "price": {
+        "min": 250000,
+        "max": 300000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+CC-724",
+      "note": "상단 갤러리 3번 (치마형 투피스 양변기)"
+    },
+    {
+      "id": "hall-bidet",
+      "row": 6,
+      "room": "거실 욕실",
+      "name": "비데",
+      "spec": "이누스 방수 비데 IS-27D",
+      "quantity": "1개",
+      "priceText": "180000~220000",
+      "price": {
+        "min": 180000,
+        "max": 220000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=이누스+IS-27D",
+      "note": "상단 갤러리 4번 (슬림 방수 비데)"
+    },
+    {
+      "id": "hall-tub",
+      "row": 7,
+      "room": "거실 욕실",
+      "name": "욕조",
+      "spec": "아크릴 매립형 욕조 1600mm (팝업 포함)",
+      "quantity": "1개",
+      "priceText": "150000~200000",
+      "price": {
+        "min": 150000,
+        "max": 200000,
+        "scope": null
+      },
+      "procurement": "사급/업체협의",
+      "url": "https://search.shopping.naver.com/search/all?query=아크릴+매립형+욕조+1600",
+      "note": "표준 화이트 아크릴 매립 욕조"
+    },
+    {
+      "id": "hall-basin",
+      "row": 8,
+      "room": "거실 욕실",
+      "name": "세면대",
+      "spec": "대림바스 아르노 스퀘어 반다리 CL-371",
+      "quantity": "1개",
+      "priceText": "150000~180000",
+      "price": {
+        "min": 150000,
+        "max": 180000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+CL-371",
+      "note": "상단 갤러리 5번 (사각 반다리 세면기)"
+    },
+    {
+      "id": "hall-mirror",
+      "row": 9,
+      "room": "거실 욕실",
+      "name": "거울장",
+      "spec": "대림바스 은경 슬라이드 거울장 (1200x800, 하부 간접등 포함)",
+      "quantity": "1개",
+      "priceText": "250000~320000",
+      "price": {
+        "min": 250000,
+        "max": 320000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+은경+슬라이드장+1200",
+      "note": "은경 슬라이드장 + 하부 T5 LED 간접등"
+    },
+    {
+      "id": "hall-faucet",
+      "row": 10,
+      "room": "거실 욕실",
+      "name": "세면대 수전",
+      "spec": "대림바스 아르노 무광니켈 DL-L4210LN",
+      "quantity": "1개",
+      "priceText": "110000~140000",
+      "price": {
+        "min": 110000,
+        "max": 140000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-L4210LN",
+      "note": "상단 갤러리 6번 (아르노 무광니켈 세면수전)"
+    },
+    {
+      "id": "hall-shower",
+      "row": 11,
+      "room": "거실 욕실",
+      "name": "욕조 샤워수전",
+      "spec": "대림바스 아르노R 무광니켈 DL-B4213LN",
+      "quantity": "1개",
+      "priceText": "180000~220000",
+      "price": {
+        "min": 180000,
+        "max": 220000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-B4213LN",
+      "note": "상단 갤러리 7번 (아르노R 무광니켈 욕조수전)"
+    },
+    {
+      "id": "hall-paper",
+      "row": 12,
+      "room": "거실 욕실",
+      "name": "매립 휴지걸이",
+      "spec": "루바인 WMPC02SH 실버헤어라인 (대안: 범한공업 N-1208NI 무광니켈)",
+      "quantity": "1개",
+      "priceText": "40000~70000",
+      "price": {
+        "min": 40000,
+        "max": 70000,
+        "scope": null
+      },
+      "procurement": "사급 (1차 선입고)",
+      "url": "https://search.shopping.naver.com/search/all?query=루바인+WMPC02SH",
+      "note": "무광니켈/헤어라인 1구 커버 매립형"
+    },
+    {
+      "id": "hall-towel",
+      "row": 13,
+      "room": "거실 욕실",
+      "name": "수건걸이",
+      "spec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+      "quantity": "1개",
+      "priceText": "30000~40000",
+      "price": {
+        "min": 30000,
+        "max": 40000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602",
+      "note": "무광니켈 직선형 수건걸이"
+    },
+    {
+      "id": "hall-fan",
+      "row": 14,
+      "room": "거실 욕실",
+      "name": "환풍기",
+      "spec": "힘펠 제로크 HV3-80X(MD-N) (전동댐퍼 일체형)",
+      "quantity": "1개",
+      "priceText": "95000",
+      "price": {
+        "min": 95000,
+        "max": 95000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://ductin.co.kr/product/detail.html?product_no=668",
+      "note": "화이트 그릴 270×270mm · 천장 타공 225×225mm 신규 시공 · 설치비 별도"
+    },
+    {
+      "id": "main-toilet",
+      "row": 15,
+      "room": "안방 욕실",
+      "name": "양변기",
+      "spec": "대림바스 투피스 치마형 CC-724 (또는 CC-734)",
+      "quantity": "1개",
+      "priceText": "250000~300000",
+      "price": {
+        "min": 250000,
+        "max": 300000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+CC-724",
+      "note": "상단 갤러리 3번 (치마형 투피스 양변기)"
+    },
+    {
+      "id": "main-bidet",
+      "row": 16,
+      "room": "안방 욕실",
+      "name": "비데",
+      "spec": "이누스 방수 비데 IS-27D",
+      "quantity": "1개",
+      "priceText": "180000~220000",
+      "price": {
+        "min": 180000,
+        "max": 220000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=이누스+IS-27D",
+      "note": "상단 갤러리 4번 (슬림 방수 비데)"
+    },
+    {
+      "id": "main-partition",
+      "row": 17,
+      "room": "안방 욕실",
+      "name": "샤워 파티션",
+      "spec": "조적 파티션 (600각 포세린 타일 및 졸리컷 마감)",
+      "quantity": "1식",
+      "priceText": "업체 시공 포함",
+      "price": null,
+      "procurement": "업체 시공 일괄",
+      "url": null,
+      "note": "600각 포세린 타일 조적 파티션"
+    },
+    {
+      "id": "main-basin",
+      "row": 18,
+      "room": "안방 욕실",
+      "name": "세면대·하부장",
+      "spec": "대림바스 와이드 사각 탑카운터 CL-857 (또는 CL-551) + 하부 수납장",
+      "quantity": "1세트",
+      "priceText": "450000~600000",
+      "price": {
+        "min": 450000,
+        "max": 600000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+CL-857",
+      "note": "상단 갤러리 8번 (와이드 사각 탑카운터 볼)"
+    },
+    {
+      "id": "main-mirror",
+      "row": 19,
+      "room": "안방 욕실",
+      "name": "거울장",
+      "spec": "대림바스 은경 슬라이드 거울장 (안방 규격)",
+      "quantity": "1개",
+      "priceText": "220000~280000",
+      "price": {
+        "min": 220000,
+        "max": 280000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+은경+슬라이드장",
+      "note": "은경 슬라이드장"
+    },
+    {
+      "id": "main-faucet",
+      "row": 20,
+      "room": "안방 욕실",
+      "name": "세면대 수전",
+      "spec": "대림바스 아르노 무광니켈 DL-L4210LN",
+      "quantity": "1개",
+      "priceText": "110000~140000",
+      "price": {
+        "min": 110000,
+        "max": 140000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-L4210LN",
+      "note": "상단 갤러리 6번 (아르노 무광니켈 세면수전)"
+    },
+    {
+      "id": "main-shower",
+      "row": 21,
+      "room": "안방 욕실",
+      "name": "선반형 해바라기 수전",
+      "spec": "대림바스 선반형 DL-BV900A (대안: 아메리칸스탠다드 FC5797)",
+      "quantity": "1개",
+      "priceText": "350000~450000",
+      "price": {
+        "min": 350000,
+        "max": 450000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-BV900A",
+      "note": "상단 갤러리 9번 (선반 일체형 레인샤워 수전)"
+    },
+    {
+      "id": "main-paper",
+      "row": 22,
+      "room": "안방 욕실",
+      "name": "매립 휴지걸이",
+      "spec": "루바인 WMPC02SH 실버헤어라인 (대안: 범한공업 N-1208NI 무광니켈)",
+      "quantity": "1개",
+      "priceText": "40000~70000",
+      "price": {
+        "min": 40000,
+        "max": 70000,
+        "scope": null
+      },
+      "procurement": "사급 (1차 선입고)",
+      "url": "https://search.shopping.naver.com/search/all?query=루바인+WMPC02SH",
+      "note": "무광니켈/헤어라인 1구 커버 매립형"
+    },
+    {
+      "id": "main-towel",
+      "row": 23,
+      "room": "안방 욕실",
+      "name": "수건걸이",
+      "spec": "대림바스 무광니켈 수건걸이 DL-A5602 (단품)",
+      "quantity": "1개",
+      "priceText": "30000~40000",
+      "price": {
+        "min": 30000,
+        "max": 40000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+DL-A5602",
+      "note": "무광니켈 직선형 수건걸이"
+    },
+    {
+      "id": "main-fan",
+      "row": 24,
+      "room": "안방 욕실",
+      "name": "환풍기",
+      "spec": "힘펠 휴젠뜨 노바 복합환풍기 (타공 신규 시공)",
+      "quantity": "1개",
+      "priceText": "320000~380000",
+      "price": {
+        "min": 320000,
+        "max": 380000,
+        "scope": null
+      },
+      "procurement": "사급 (직접 구매)",
+      "url": "https://search.shopping.naver.com/search/all?query=힘펠+휴젠뜨+노바",
+      "note": "화이트 미니멀 프레임 복합환풍기"
+    },
+    {
+      "id": "rooms-wallpaper",
+      "row": 26,
+      "room": "거실 및 각 방",
+      "name": "도배 벽지",
+      "spec": "신한벽지 리빙 70353-1 코튼 회벽/화이트 (가성비 디아망 스타일)",
+      "quantity": "1식",
+      "priceText": "업체 견적 포함",
+      "price": null,
+      "procurement": "업체 시공 지정",
+      "url": "https://search.shopping.naver.com/search/all?query=신한벽지+리빙+70353-1",
+      "note": "입체 회벽/미장 화이트 텍스처"
+    },
+    {
+      "id": "rooms-floor",
+      "row": 27,
+      "room": "거실 및 각 방",
+      "name": "바닥재·걸레받이",
+      "spec": "3.2T(3.2mm) 장판 크림·아이보리 스톤 / 웜 베이지 스톤 (현대L&C 아티움 3.2 / KCC 숲 도담 / 동화 듀오) + 화이트 걸레받이",
+      "quantity": "1식",
+      "priceText": "업체 견적 포함",
+      "price": null,
+      "procurement": "업체 시공 지정",
+      "url": "https://search.shopping.naver.com/search/all?query=현대+아티움+3.2T+스톤",
+      "note": "600각 포세린 느낌 웜 스톤 패턴"
+    },
+    {
+      "id": "rooms-lighting",
+      "row": 28,
+      "room": "거실 및 각 방",
+      "name": "거실 조명·실링팬",
+      "spec": "루씨에어 레이더3 올화이트 52인치 + 우물천장 T5 간접등 + 3인치 COB 매립등",
+      "quantity": "1세트",
+      "priceText": "450000~550000 (실링팬)",
+      "price": {
+        "min": 450000,
+        "max": 550000,
+        "scope": "실링팬"
+      },
+      "procurement": "사급/업체협의",
+      "url": "https://search.shopping.naver.com/search/all?query=루씨에어+레이더3+화이트",
+      "note": "밀착형 3엽 올화이트 실링팬 + 간접조명"
+    }
+  ]
+}
