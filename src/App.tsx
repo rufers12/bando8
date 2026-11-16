@@ -48,7 +48,7 @@ function ExternalLink({label, url}: {label: string; url: string}) {
 function ProductPhoto({item, photo, eager = false}: {item: Material; photo?: Photo; eager?: boolean}) {
   const [failed, setFailed] = useState(false);
   return (
-    <figure className="material-photo">
+    <figure className={'material-photo' + (item.id === 'rooms-wallpaper' || item.id === 'rooms-floor' ? ' is-texture' : '')}>
       {photo && !failed ? (
         <img src={import.meta.env.BASE_URL + 'materials/' + photo.filename} alt={photo.caption || item.name} loading={eager ? 'eager' : 'lazy'} onError={() => setFailed(true)} />
       ) : (
@@ -60,29 +60,21 @@ function ProductPhoto({item, photo, eager = false}: {item: Material; photo?: Pho
 
 function MaterialCard({item, onOpen}: {item: Material; onOpen: () => void}) {
   const extra = detailFor(item);
-  const exactSeller = extra?.links.find(link => link.kind === 'seller');
-  const link = sourceLink(item);
-  const quickLink = exactSeller
-    ? {label: item.id === 'main-basin' ? '도기 판매처' : item.id === 'rooms-lighting' ? '실링팬 판매처' : '판매처 보기', url: exactSeller.url}
-    : link;
+  const search = sourceLink(item);
   return (
-    <Card padding={0}>
-      <ProductPhoto item={item} photo={extra?.photo} />
-      <Section variant="transparent" padding={4}>
-        <VStack gap={2}>
-          <header>
-            <p className="material-status">{extra?.status ?? item.procurement}</p>
-            <h3>{item.name}</h3>
-          </header>
-          <p className="material-spec">{item.spec}</p>
-          <p className="material-price">{priceFor(item)}{item.price?.scope && <small> · {item.price.scope}만</small>}</p>
-          <p className="material-meta">{item.quantity} · {item.procurement}</p>
-          <HStack gap={1} wrap="wrap">
-            <Button label={item.name + ' 상세 보기'} size="sm" onClick={onOpen}>상세 보기</Button>
-            {quickLink && <ExternalLink {...quickLink} />}
-          </HStack>
-        </VStack>
-      </Section>
+    <Card padding={0} height="100%">
+      <section className="material-card">
+        <ProductPhoto item={item} photo={extra?.photo} />
+        <Section variant="transparent" padding={4}>
+          <VStack gap={2}>
+            {/* 제품명 버튼이 카드 전체를 덮어(CSS ::after) 카드 어디를 눌러도 상세가 열린다 */}
+            <h3><button className="material-open" type="button" onClick={onOpen}>{item.name}</button></h3>
+            <p className="material-spec">{item.spec}</p>
+            <p className="material-price">{priceFor(item)}{item.price?.scope && <small> · {item.price.scope}만</small>}</p>
+            {search && <footer className="material-actions"><ExternalLink label="가격 검색" url={search.url} /></footer>}
+          </VStack>
+        </Section>
+      </section>
     </Card>
   );
 }
@@ -137,14 +129,15 @@ function MaterialDialog({item, onClose}: {item: Material; onClose: () => void}) 
   );
 }
 
-function Estimate({room, items, onOpen}: {room: string; items: Material[]; onOpen: (item: Material) => void}) {
+function Estimate({room, items: all, onOpen}: {room: string; items: Material[]; onOpen: (item: Material) => void}) {
+  const items = all.filter(item => item.price); // 업체 시공·견적 포함 항목은 견적에서 뺀다
   const total = summarize(items);
   return (
     <VStack gap={6}>
       <section className="estimate-banner" aria-label="예상 자재비">
         <p>{room === allRooms ? '전체 예상 자재비' : room + ' 예상 자재비'}</p>
         <strong>{total.priced ? amount(total.min, total.max) : '기재된 금액 없음'}</strong>
-        <p className="material-meta">합산 {total.priced}개 · 금액 미기재 {total.unpriced}개 · 공사비 및 미기재 금액 제외</p>
+        <p className="material-meta">확인된 자재비 {total.priced}개 합산 · 시공비·배송비 제외</p>
       </section>
       {rooms.filter(name => room === allRooms || name === room).map(name => {
         const group = items.filter(item => item.room === name);
@@ -203,7 +196,6 @@ export default function App() {
               <header className="intro">
                 <p className="material-status">반도8차 인테리어</p>
                 <h1>{view === 'materials' ? '공간별 자재 보드' : '견적 모아보기'}</h1>
-                <p className="intro-copy">{view === 'materials' ? '공간을 선택해 제품 사진과 모델, 예상 자재비를 확인하세요.' : '공간별 예상 금액과 업체 견적에 포함된 항목을 확인하세요.'}</p>
               </header>
               <VStack gap={4}>
                 <ToggleButtonGroup label="공간 필터" value={room} onChange={value => { if (value) setRoom(value); }}>
@@ -227,7 +219,7 @@ export default function App() {
                       <section key={name} aria-label={name}>
                         <header className="room-heading">
                           <h2>{name}</h2>
-                          <p>{total.priced ? amount(total.min, total.max) : '기재된 금액 없음'}{total.unpriced ? ' · 금액 미기재 ' + total.unpriced + '개' : ''}</p>
+                          <p>{total.priced ? amount(total.min, total.max) : '기재된 금액 없음'}</p>
                         </header>
                         <Grid columns={{minWidth: 240, max: 4}} gap={4}>
                           {group.map(item => <MaterialCard key={item.id} item={item} onOpen={() => setSelected(item)} />)}
