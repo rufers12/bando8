@@ -160,3 +160,54 @@ h4 { margin-block-end: .5rem; font-size: 1rem; font-weight: 600; }
   padding-block-start: 1rem;
   font-size: .875rem;
 }
+
+.plan-editor {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+  align-items: start;
+  gap: var(--spacing-6, 1.5rem);
+}
+
+.plan-canvas { position: relative; margin: 0; isolation: isolate; }
+.plan-canvas img { display: block; width: 100%; height: auto; }
+.plan-shape {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  padding: 0;
+  border: .125rem dashed var(--color-text-blue);
+  border-radius: var(--radius-2, .25rem);
+  background: color-mix(in srgb, var(--color-background-blue) 60%, transparent);
+  color: var(--color-text-primary);
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+}
+
+.plan-shape[aria-pressed="true"] {
+  z-index: 1;
+  border-style: solid;
+  background: color-mix(in srgb, var(--color-background-blue) 84%, transparent);
+}
+
+.plan-shape:active { cursor: grabbing; }
+.plan-shape:focus-visible { z-index: 2; outline: .125rem solid var(--color-text-blue); outline-offset: .125rem; }
+.plan-shape strong {
+  padding: .125rem .25rem;
+  border-radius: var(--radius-2, .25rem);
+  background: var(--color-background-surface);
+  font-size: clamp(.625rem, 1.4vw, .875rem);
+  white-space: nowrap;
+}
+
+.plan-controls {
+  padding: var(--spacing-4, 1rem);
+  border-radius: var(--radius-4, 1rem);
+  background: var(--color-background-muted);
+}
+
+.plan-controls h2 { margin: 0; font-size: 1.125rem; font-weight: 600; }
+
+@media (max-width: 48em) {
+  .plan-editor { grid-template-columns: minmax(0, 1fr); }
+}

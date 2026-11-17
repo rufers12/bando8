@@ -8,6 +8,7 @@ import {Section} from '@astryxdesign/core/Section';
 import {VStack, HStack} from '@astryxdesign/core/Stack';
 import {TextInput} from '@astryxdesign/core/TextInput';
 import {ToggleButton, ToggleButtonGroup} from '@astryxdesign/core/ToggleButton';
+import FloorPlan from './FloorPlan';
 import sheet from './data/sheet.json';
 import extras from './data/extras.json';
 import {amount, materialDetails, summarize} from './materials.mjs';
@@ -18,6 +19,7 @@ type Photo = {filename: string; sourceUrl: string; caption?: string};
 type Details = {status: string; note: string; links: MaterialLink[]; photo?: Photo};
 const rooms = [...new Set(sheet.items.map(item => item.room))];
 const allRooms = '전체';
+const viewTitles = {materials: '공간별 자재 보드', estimate: '견적 모아보기', plan: '도면 편집'};
 const detailFor = (item: Material): Details | undefined => materialDetails(item, extras);
 const priceFor = ({price, priceText}: Material) => price
   ? amount(price.min, price.max)
@@ -165,7 +167,7 @@ function Estimate({room, items: all, onOpen}: {room: string; items: Material[]; 
 }
 
 export default function App() {
-  const [view, setView] = useState('materials');
+  const [view, setView] = useState<keyof typeof viewTitles>('materials');
   const [room, setRoom] = useState(allRooms);
   const [search, setSearch] = useState('');
   const [selected, setSelected] = useState<Material | null>(null);
@@ -180,9 +182,12 @@ export default function App() {
         <LayoutHeader padding={0} hasDivider>
           <section className="masthead shell">
             <p className="wordmark">반도8차</p>
-            <ToggleButtonGroup label="화면 선택" value={view} onChange={value => { if (value) setView(value); }}>
+            <ToggleButtonGroup label="화면 선택" value={view} onChange={value => {
+              if (value === 'materials' || value === 'estimate' || value === 'plan') setView(value);
+            }}>
               <ToggleButton label="자재 보기" value="materials" />
               <ToggleButton label="견적 모아보기" value="estimate" />
+              <ToggleButton label="도면 편집" value="plan" />
             </ToggleButtonGroup>
           </section>
         </LayoutHeader>
@@ -193,8 +198,12 @@ export default function App() {
             <VStack gap={6}>
               <header className="intro">
                 <p className="material-status">반도8차 인테리어</p>
-                <h1>{view === 'materials' ? '공간별 자재 보드' : '견적 모아보기'}</h1>
+                <h1>{viewTitles[view]}</h1>
               </header>
+              <section hidden={view !== 'plan'}>
+                <FloorPlan />
+              </section>
+              {view !== 'plan' && <>
               <VStack gap={4}>
                 <ToggleButtonGroup label="공간 필터" value={room} onChange={value => { if (value) setRoom(value); }}>
                   <HStack gap={1} wrap="wrap" vAlign="center">
@@ -231,6 +240,7 @@ export default function App() {
                 <p>데이터 반영일 {sheet.asOf} · 실측 전 현재 기준이며 변경될 수 있습니다</p>
                 <ExternalLink label="원본 스프레드시트" url={sheet.sourceUrl} />
               </footer>
+              </>}
             </VStack>
           </section>
           {selected && <MaterialDialog key={selected.id} item={selected} onClose={() => setSelected(null)} />}
