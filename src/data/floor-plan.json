@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "plan": "bando-73",
+  "spaces": {
+    "living": {
+      "x": 670,
+      "y": 690,
+      "rotation": 0,
+      "scale": 100
+    },
+    "kitchen": {
+      "x": 675,
+      "y": 318,
+      "rotation": 0,
+      "scale": 100
+    },
+    "hall-bath": {
+      "x": 1212,
+      "y": 525,
+      "rotation": 90,
+      "scale": 100
+    },
+    "main-bath": {
+      "x": 415,
+      "y": 437,
+      "rotation": 90,
+      "scale": 100
+    },
+    "main-bedroom": {
+      "x": 367,
+      "y": 647,
+      "rotation": 0,
+      "scale": 100
+    },
+    "room-1": {
+      "x": 929,
+      "y": 728,
+      "rotation": 0,
+      "scale": 100
+    },
+    "room-2": {
+      "x": 1157,
+      "y": 723,
+      "rotation": 0,
+      "scale": 100
+    }
+  }
+}

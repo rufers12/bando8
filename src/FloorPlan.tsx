@@ -25,7 +25,7 @@ function loadDraft() {
   } catch {
     return {layout: initialLayout, saved: false, message: '브라우저에서 배치를 불러올 수 없습니다. 기본 배치를 표시합니다.'};
   }
-  return {layout: initialLayout, saved: false, message: ''};
+  return {layout: initialLayout, saved: false, message: '확정된 기본 배치입니다.'};
 }
 
 export default function FloorPlan() {
@@ -110,7 +110,7 @@ export default function FloorPlan() {
   return (
     <section className="plan-editor" aria-label="73㎡ 도면 편집">
       <VStack gap={3}>
-        <p className="material-meta" id="plan-instructions">공간 이름은 초안입니다. 도형을 끌어 옮기거나 이동 버튼으로 조정하세요.</p>
+        <p className="material-meta" id="plan-instructions">도형을 끌어 옮기거나 이동 버튼으로 조정하세요.</p>
         <figure className="plan-canvas" ref={canvas}>
           <img src={import.meta.env.BASE_URL + 'plans/bando-73.png'} alt="반도 7·8차 73㎡ 평면도와 치수" width={planWidth} height={planHeight} draggable={false} />
           {spaces.map(space => {
