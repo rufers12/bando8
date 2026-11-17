@@ -161,53 +161,35 @@ h4 { margin-block-end: .5rem; font-size: 1rem; font-weight: 600; }
   font-size: .875rem;
 }
 
-.plan-editor {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
-  align-items: start;
-  gap: var(--spacing-6, 1.5rem);
+.plan-canvas {
+  position: relative;
+  inline-size: min(100%, 60rem);
+  margin: 0 auto;
 }
-
-.plan-canvas { position: relative; margin: 0; isolation: isolate; }
 .plan-canvas img { display: block; width: 100%; height: auto; }
+
+.plan-labels { margin: 0; padding: 0; list-style: none; }
 .plan-shape {
   position: absolute;
+  transform: translate(-50%, -50%);
   display: grid;
   place-content: center;
-  padding: 0;
-  border: .125rem dashed var(--color-text-blue);
+  border: .0625rem solid color-mix(in srgb, var(--color-text-blue) 72%, transparent);
   border-radius: var(--radius-2, .25rem);
-  background: color-mix(in srgb, var(--color-background-blue) 60%, transparent);
+  background: color-mix(in srgb, var(--color-text-blue) 11%, transparent);
   color: var(--color-text-primary);
-  touch-action: none;
-  user-select: none;
-  cursor: grab;
 }
 
-.plan-shape[aria-pressed="true"] {
-  z-index: 1;
-  border-style: solid;
-  background: color-mix(in srgb, var(--color-background-blue) 84%, transparent);
-}
-
-.plan-shape:active { cursor: grabbing; }
-.plan-shape:focus-visible { z-index: 2; outline: .125rem solid var(--color-text-blue); outline-offset: .125rem; }
 .plan-shape strong {
   padding: .125rem .25rem;
   border-radius: var(--radius-2, .25rem);
   background: var(--color-background-surface);
-  font-size: clamp(.625rem, 1.4vw, .875rem);
+  font-size: clamp(.75rem, 1.4vw, .9375rem);
+  line-height: 1.25;
   white-space: nowrap;
 }
 
-.plan-controls {
-  padding: var(--spacing-4, 1rem);
-  border-radius: var(--radius-4, 1rem);
-  background: var(--color-background-muted);
-}
-
-.plan-controls h2 { margin: 0; font-size: 1.125rem; font-weight: 600; }
-
-@media (max-width: 48em) {
-  .plan-editor { grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 30em) {
+  .plan-shape:nth-last-child(2) strong { translate: 0 -.625rem; }
+  .plan-shape:last-child strong { translate: 0 .625rem; }
 }

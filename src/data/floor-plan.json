@@ -1,48 +1,13 @@
 {
-  "version": 1,
-  "plan": "bando-73",
-  "spaces": {
-    "living": {
-      "x": 670,
-      "y": 690,
-      "rotation": 0,
-      "scale": 100
-    },
-    "kitchen": {
-      "x": 675,
-      "y": 318,
-      "rotation": 0,
-      "scale": 100
-    },
-    "hall-bath": {
-      "x": 1212,
-      "y": 525,
-      "rotation": 90,
-      "scale": 100
-    },
-    "main-bath": {
-      "x": 415,
-      "y": 437,
-      "rotation": 90,
-      "scale": 100
-    },
-    "main-bedroom": {
-      "x": 367,
-      "y": 647,
-      "rotation": 0,
-      "scale": 100
-    },
-    "room-1": {
-      "x": 929,
-      "y": 728,
-      "rotation": 0,
-      "scale": 100
-    },
-    "room-2": {
-      "x": 1157,
-      "y": 723,
-      "rotation": 0,
-      "scale": 100
-    }
-  }
+  "width": 1536,
+  "height": 1024,
+  "spaces": [
+    {"name": "거실", "x": 667, "y": 715, "width": 268, "height": 202},
+    {"name": "주방", "x": 690, "y": 320, "width": 192, "height": 164},
+    {"name": "거실 욕실", "x": 1206, "y": 529, "width": 106, "height": 128},
+    {"name": "안방 욕실", "x": 422, "y": 438, "width": 72, "height": 150},
+    {"name": "안방", "x": 365, "y": 681, "width": 236, "height": 120},
+    {"name": "작은방 1", "x": 943, "y": 727, "width": 166, "height": 184},
+    {"name": "작은방 2", "x": 1157, "y": 727, "width": 194, "height": 182}
+  ]
 }

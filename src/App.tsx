@@ -19,7 +19,7 @@ type Photo = {filename: string; sourceUrl: string; caption?: string};
 type Details = {status: string; note: string; links: MaterialLink[]; photo?: Photo};
 const rooms = [...new Set(sheet.items.map(item => item.room))];
 const allRooms = '전체';
-const viewTitles = {materials: '공간별 자재 보드', estimate: '견적 모아보기', plan: '도면 편집'};
+const viewTitles = {materials: '공간별 자재 보드', estimate: '견적 모아보기', plan: '도면 보기'};
 const detailFor = (item: Material): Details | undefined => materialDetails(item, extras);
 const priceFor = ({price, priceText}: Material) => price
   ? amount(price.min, price.max)
@@ -187,7 +187,7 @@ export default function App() {
             }}>
               <ToggleButton label="자재 보기" value="materials" />
               <ToggleButton label="견적 모아보기" value="estimate" />
-              <ToggleButton label="도면 편집" value="plan" />
+              <ToggleButton label="도면 보기" value="plan" />
             </ToggleButtonGroup>
           </section>
         </LayoutHeader>
@@ -200,10 +200,7 @@ export default function App() {
                 <p className="material-status">반도8차 인테리어</p>
                 <h1>{viewTitles[view]}</h1>
               </header>
-              <section hidden={view !== 'plan'}>
-                <FloorPlan />
-              </section>
-              {view !== 'plan' && <>
+              {view === 'plan' ? <FloorPlan /> : <>
               <VStack gap={4}>
                 <ToggleButtonGroup label="공간 필터" value={room} onChange={value => { if (value) setRoom(value); }}>
                   <HStack gap={1} wrap="wrap" vAlign="center">
