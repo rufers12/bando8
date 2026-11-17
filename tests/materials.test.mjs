@@ -14,9 +14,9 @@ test('시트 스냅샷에 필름을 제외한 26개 자재와 변경된 거실 �
   const fan = snapshot.items.find(item => item.id === 'hall-fan');
   assert.match(fan.spec, /HV3-80X\(MD-N\)/);
   assert.equal(amount(fan.price.min, fan.price.max), '95,000원');
-  assert.deepEqual(summarize(snapshot.items), {min: 4375000, max: 5475000, priced: 22, unpriced: 4});
+  assert.deepEqual(summarize(snapshot.items), {min: 4355000, max: 5455000, priced: 22, unpriced: 4});
   assert.deepEqual(summarize(snapshot.items.filter(item => item.room === '거실 욕실')),
-    {min: 1495000, max: 1845000, priced: 10, unpriced: 0});
+    {min: 1475000, max: 1825000, priced: 10, unpriced: 0});
 });
 
 test('행 순서가 달라도 제품 정보가 유지되고 모델이 바뀌면 기존 링크를 숨긴다', () => {

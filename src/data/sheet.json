@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1mCGLJZ0G5al-z90o24qHc0egHAUHFfF7Klu-LuzD45E/edit#gid=1942048721",
   "items": [
     {
@@ -88,16 +88,16 @@
       "row": 7,
       "room": "거실 욕실",
       "name": "욕조",
-      "spec": "대림바스 아크릴 매립욕조 BT-1600 (1600×700×420mm)",
+      "spec": "대림바스 아크릴 매립욕조 BT-1500 (1500×700×420mm, 좌/우 배수 확인 필요)",
       "quantity": "1개",
-      "priceText": "180000~230000",
+      "priceText": "160000~210000",
       "price": {
-        "min": 180000,
-        "max": 230000,
+        "min": 160000,
+        "max": 210000,
         "scope": null
       },
       "procurement": "사급 (1차 선입고)",
-      "url": "https://search.shopping.naver.com/search/all?query=대림바스+BT-1600",
+      "url": "https://search.shopping.naver.com/search/all?query=대림바스+BT-1500",
       "note": "표준 화이트 아크릴 매립 욕조"
     },
     {

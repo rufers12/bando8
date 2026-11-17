@@ -97,20 +97,20 @@
     }
   },
   "hall-tub": {
-    "sourceSpec": "대림바스 아크릴 매립욕조 BT-1600 (1600×700×420mm)",
-    "status": "BT-1600 카탈로그 확인",
-    "note": "2026-11-16: 대림바스 e-카탈로그 77쪽에서 BT-1500·1600·1700 아크릴 욕조(수납형 에이프런) 중 BT-1600 W1600×D700×H420mm를 확인했다. 처음 받은 BT1516은 BT-1600으로 정정. 실측 후 규격이 바뀔 수 있고, 팝업 포함 여부는 확인되지 않았다.",
+    "sourceSpec": "대림바스 아크릴 매립욕조 BT-1500 (1500×700×420mm, 좌/우 배수 확인 필요)",
+    "status": "BT-1500 카탈로그 확인",
+    "note": "대림바스 카탈로그에서 BT-1500 규격을 확인했습니다. 발주 전에 현장의 좌·우 배수 방향과 팝업 포함 여부를 확인하세요.",
     "links": [
       {
-        "label": "대림바스 e-카탈로그",
-        "url": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?callmode=normal&catimage=&eclang=ko&Dir=10&um=s&start=76",
+        "label": "대림바스 카탈로그 98쪽",
+        "url": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?Dir=17&callmode=normal&catimage=&eclang=ko&start=98&um=s",
         "kind": "official"
       }
     ],
     "photo": {
-      "filename": "daelim-bt1600.png",
+      "filename": "daelim-bt-series.png",
       "sourceUrl": "https://www.daelimbath.com/ebook/access/ecatalogt.jsp?callmode=normal&catimage=&eclang=ko&Dir=10&um=s&start=76",
-      "caption": "대림바스 BT-1500·1600·1700 아크릴 욕조 e-카탈로그 사진(시리즈 공통)."
+      "caption": "대림바스 BT 아크릴 욕조 시리즈 공통 사진. 좌·우 배수 방향은 발주 전 확인."
     }
   },
   "hall-basin": {
